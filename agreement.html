@@ -1,0 +1,586 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SYFhG5N6fNSeKAXJBrJSZO5QpY/kH5bsynQXW0" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="css/others.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Kullanıcı Sözleşmesi</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="anasayfaMenu">
+        <div class="menuContainer">
+
+            <!-- BARS -->
+            <div class="displayBar" style="display: none;">
+                <a class="bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop">
+                    <i class="fa-solid fa-bars fa-xl" style="color: #0E75BE;"></i>
+                </a>
+            </div>
+
+            <!-- MENÜ -->
+            <div class="w-100 d-flex align-items-center justify-content-between">
+
+            <div class="logo pl">
+                <a href="index.html"><img src="./img/saglambilisim.png"></a>
+            </div>
+
+            <div class="menu-item-group">
+                <div class="menu-item"><a href="/">Anasayfa</a></div>
+                <div class="menu-item"><a href="about.html">Hakkımızda</a></div>
+
+
+                <div class="menu-item"><a href="contact.html">İletişim</a></div>
+            </div>
+
+
+            <div class="pr">
+                <a href="application.html" class="btn basvurbtn" tabindex="-1" role="button"
+                    aria-disabled="true">Hemen
+                    Başvur</a>
+            </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- NAVBAR OFFCANVAS -->
+
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+            <div class="w-100 d-flex align-items-center justify-content-between">
+
+                <a class="brand display6" style="display: none;" href="index.html">
+                    <img style="height: 35px; width:130px;" src="./img/saglambilisimmini.png">
+                </a>
+
+                <a class="brand display7" style="display: none;" href="index.html">
+                    <img style="height: 70px; width:250px;" src="./img/saglambilisimmini.png">
+                </a>
+
+
+
+                <a class="pr display8" style="display: none;" href="application.html">
+                    <div class="btn basvurbtn">
+                        Hemen Başvur
+                    </div>
+                </a>
+
+
+                <a class="pr display9" style="display: none;" href="application.html">
+                    <div class="btn basvurbtn">
+                        Hemen Başvur
+                    </div>
+                </a>
+
+
+            </div>
+
+
+
+        </div>
+        <div class="offcanvas-body">
+
+            <ul>
+                <a href="index.html">
+                    <li>Anasayfa</li>
+                </a>
+                <hr class="mobil-hr">
+
+                <a href="about.html">
+                    <li>Hakkımızda</li>
+                </a>
+                <hr class="mobil-hr">
+
+                <a href="contact.html">
+                    <li>İletişim</li>
+                </a>
+            </ul>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- BAŞLIK -->
+
+    <div class="anasayfaMenu1 title-bg" id="agreement">
+        <div class="menuContainer">
+
+
+
+            <div class="">
+
+                <h1>Kullanıcı Sözleşmesi</h1>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <!-- 1.Kısım -->
+
+
+
+
+    <section>
+
+        <div class="infoParagraph">
+            <div class="row">
+
+                <div class="col-12">
+
+                    <p class="mt-3">
+                        Sağlam Bilişim Finansal Danışmanlık Hizmetleri Anonim Şirketi, Üyeler’e finansal raporlar sunan,
+                        kredi başvuru süreçlerine yönelik
+                        danışmanlık hizmeti veren bir platformdur. İşbu Üyelik Şart ve Koşulları <strong>(“Şart ve
+                            Koşullar”)</strong>
+                        Sağlam Bilişim tarafından Üyeler’e sunulacak danışmanlık hizmetinin kapsamında Taraflar’ın
+                        birbirlerine karşı hak ve yükümlülüklerin kapsamını belirlemek amacıyla düzenlenmiştir. Bir
+                        üyelik oluşturulduğu durumda, Üye, işbu Şart ve Koşullar’da yer alan maddelerin tümünü
+                        okuduğunu, anladığını ve verdiği bilgilerin doğruluğunu onayladığını kabul, beyan ve taahhüt
+                        edilmiş sayılmaktadır.
+                    </p>
+
+
+                    <p><strong>Tanımlar</strong>
+
+                    </p>
+                    <p><strong>İnternet Sitesi :</strong> <a href="/"
+                            style="color: #0E75BE;"><b>www.saglambilisim.com</b></a>
+                        adresinde bulunan internet
+                        sitesidir.<strong>Kullanıcı/Kullanıcılar:</strong> İnternet Sitesi veya Mobil Uygulama’ya erişim
+                        sağlayan ve/veya
+                        üyelik oluşturan her türlü gerçek kişiyi ifade etmektedir.<strong>Mobil
+                            Uygulama/Uygulamalar:</strong> Sağlam
+                        Kredi’nin Android ve iOS uygulamalarını ifade etmektedir.<strong>Site:</strong> İnternet Sitesi
+                        ve Mobil
+                        Uygulama/Uygulamalar’ı birlikte ifade etmektedir.<strong>Şirket veya Sağlam Bilişim:</strong>
+                        Sağlam Bilişim Finansal Danışmanlık Hizmetleri Anonim Şirketi’ni ifade etmektedir.<strong>Şirket
+                            E-posta Adresi: </strong>[●] ifade etmektedir.
+                    </p>
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;1. Taraflar
+                        </strong>
+
+                    </p>
+                    <p>İşbu Şart ve Koşullar, merkezi “Nispetiye mh. Gazi Güçnar sk. Uygur İş Merkezi No:4/2 Beşiktaş /
+                        İstanbul” adresinde bulunan ve Türkiye Cumhuriyeti kanunlarına uygun şekilde kurulmuş Sağlam
+                        Bilişim Finansal Danışmanlık Hizmetleri Anonim Şirketi (“<strong>Şirket</strong>” veya
+                        “<strong>Sağlam Bilişim</strong>” üyelik
+                        hesabı oluşturmuş gerçek kişi Kullanıcı
+                        <strong>(“Üye”)</strong> arasında çift taraflı olarak yürürlüğe girmiştir. Şart ve Koşullar’da,
+                        Şirket ve Üye
+                        münferiden “Taraf”, müştereken “Taraflar” olarak anılacaktır.
+
+                    </p>
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;2. Üyelik Oluşturulması
+                        </strong>
+
+                    </p>
+                    <p> <b>2.1</b> Üyelik oluşturup Üye olabilmek ve sunulan hizmetlerden yararlanmak için en az 18
+                        yaşında
+                        olunması gerekmektedir. İşbu üyelik şartı sağlanmaksızın üye olunması halinde, Şirket’in bunu
+                        doğrulaması yükümlülüğü yoktur ve yaşanabilecek herhangi zararlardan dolayı Şirket sorumlu
+                        tutulamayacaktır. <b>2.2</b> Kullanıcılar, üyelik oluşturmak için herhangi bir kayıt ücreti
+                        ödemeyecektir. Ancak tarafımızca sunulan hizmetlerden yararlanabilmek için ödeme yapmanız
+                        gerekebilir. Hizmetlere yönelik ücret politikasını belirlemek, Şirket’in yetki ve sorumluluğu
+                        kapsamındadır. <b>2.3</b> Üyelik oluşturulması için Kullanıcı’nın T.C. kimlik numarası, ad,
+                        soyad,
+                        telefon numarası ve e-posta adresi bilgilerini sisteme girmesi gerekmektedir. Kullanıcı
+                        tarafından paylaşılan telefon numarasına SMS ile bir onay kodu gönderilmekte olup bu kodun
+                        ilgili kısma yazılması ile üyelik onaylanmaktadır.<b>2.4</b> Üye, üyelik işlemlerini
+                        tamamladıktan
+                        sonra işbu Şart ve Koşullar’da belirtilen şartlara uymak kaydıyla e-posta adresini ve şifresini
+                        girerek Site’yi kullanmaya başlayabilir.
+                    </p>
+
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;3. Üye Hak ve Yükümlülükleri
+                        </strong>
+
+                    </p>
+                    <p><b>3.1</b>Üye, yararlanmak istediği hizmetin ücretini ödemekle yükümlüdür. <b>3.2</b> Üye,
+                        hesabının kendi kusuru
+                        nedeniyle başka kişiler tarafından kötü niyetle kullanılması durumunda doğrudan sorumlu olduğunu
+                        kabul eder. Bu gibi bir durum neticesinde Şirket, ödemek zorunda kaldığı her türlü adli/idari
+                        para cezası ve/veya tazminat gibi her türlü zarar için Üye’ye aynen rücu hakkına sahiptir.
+                        <b>3.3</b>
+                        Üye, Şirket’in kendisine bildirim ve elektronik ileti göndermesi konusunda tercih hakkına
+                        sahiptir. <b>3.4</b> Üye, Şirket’in hizmetlerine yönelik her türlü görüş ve yorumuna ilişkin
+                        Şirket
+                        ile iletişime geçebilecektir. <b>3.5</b> Üye, işbu Şart ve Koşullar’da yer alan hükümlere aykırı
+                        davranışlar nedeniyle Şart ve Koşullar’ın feshedilmesi halinde Şirket’ten hiçbir hak ve talepte
+                        bulunmayacağını kabul, beyan ve taahhüt eder.
+
+                    </p>
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;4. Şirket Hak ve
+                            Yükümlülükleri</strong>
+
+                    </p>
+                    <p><b>4.1</b> Şirket, sunduğu hizmetlere ve hizmet bedellerine yönelik her türlü değişikliği yapma
+                        hakkına
+                        sahiptir. <b>4.2</b> Şirket, Üye’nin paylaştığı bilgileri, hizmetin gerçekleştirilmesi için
+                        üçüncü
+                        kişilerle paylaşılması gereken durumlar ve yasal zorunluluklar haricinde üçüncü kişilerle
+                        paylaşmayacağını taahhüt eder. <b>4.3</b> Şirket, aşağıdaki durumlardan herhangi birinin varlığı
+                        halinde, Kullanıcılar’ı, Üyeler’i, Şirket’i veya üçüncü kişileri korumak amacıyla herhangi bir
+                        hesabı feshedebilir veya askıya alabilir; <b>4.3.1</b> Görüş ve yorumlarda hakaret veya ahlak
+                        dışı
+                        nitelikte ifadeler kullanılması; <b>4.3.2</b> İnternet Sitesi’nin veya Mobil Uygulama’nın
+                        yazılımına
+                        zarar verecek veya yavaşlatacak bir davranışta bulunulması; <b>4.3.3</b> Yasa dışı bir
+                        kullanımın
+                        tespit edilmesi.
+                    </p>
+
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;5. Sorumluluğun
+                            Sınırlandırılması</strong>
+
+                    </p>
+                    <p><b>5.1</b> Şirket, kesintisiz servis taahhüdünde bulunmamaktadır. Herhangi bir zamanda sistemin
+                        çalışmasını geçici bir süre askıya alabilir; sistemde teknik bakım, onarım, güncelleme yapabilir
+                        veya sistemi tamamen durdurabilir. Şirket’in Kullanıcılar’a, Üyeler’e veya üçüncü kişilere karşı
+                        bu işlemlere yönelik hiçbir sorumluluğu yoktur. <b>5.2</b> Şirket, kredi veren bir kurum olmayıp
+                        kredi
+                        danışmanlığı hizmeti kapsamında Üyeler’in kredi onayı alacağına herhangi bir taahhütte
+                        bulunmamaktadır. Söz konusu başvurular, Şirket’in tecrübeli ekibinin yönlendirmeleri
+                        doğrultusunda gerçekleştirilecek olsa da başvuru, Üyeler’in mevcut durumları ışığında ilgili
+                        kredi veren kurumlar tarafından karara bağlanacaktır. Şirket’in tecrübeleri ışığında gerekli
+                        özeni göstermek dışında Üyeler’e ve/veya üçüncü kişilere karşı hiçbir sorumluluğu
+                        bulunmamaktadır.</p>
+
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;6. Mücbir Sebep</strong>
+
+                    </p>
+                    <p>Şirket, doğal afet, ve terör olayları, darbe girişimleri, epidemi/pandemi niteliğini haiz yaygın
+                        salgın hastalık ile bu doğrultuda gerçekleşecek yoğun hükümet önlemleri veya yoğun ulaşım
+                        kısıtlaması, savaş, askeri uygulamalar, yangın, deprem gibi doğal afetler, enerji, işgücü, ağ ve
+                        depolama sunucularının zarar görmesi, sisteme sızılması, siber saldırıya uğranılması veya
+                        objektif imkânsızlık nedeniyle Şirket’in kontrolü dışındaki olaylardan kaynaklanan sebeplerle
+                        işbu Şart ve Koşullar’da belirtilmiş olan sorumluluklarını kısmen ya da tamamen yerine
+                        getirememesinden, geciktirmesinden sorumlu olmayacaktır.</p>
+
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;7. Fikri Mülkiyet
+                            Politikası</strong>
+
+                    </p>
+                    <p>Şirket, İnternet Sitesi ve Mobil Uygulama’da yayınlanan her türlü materyalin tüm fikri mülkiyet
+                        haklarının sahibidir. Bu kapsamdaki herhangi bir içerik hiçbir şekilde kopyalanamaz,
+                        çoğaltılamaz, yeniden yayımlanamaz, iletilemez, kamuya açılamaz.</p>
+
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;8. Şart ve Koşullar’ın
+                            Devri</strong>
+
+                    </p>
+
+                    <p>İşbu Şart ve Koşullar, Kullanıcı’nın üyelik oluştururken onayladığı tarihte yürürlüğe girecek ve
+                        Üye’nin hesabı aktif olduğu sürece yürürlükte kalacaktır. Üyeliğin sona ermesi ile veya sona
+                        erme hallerinden herhangi birinin gerçekleşmesi ile hiçbir uyarıya gerek kalmadan işbu Şart ve
+                        Koşullar da kendiliğinden hükümsüz olacaktır. Üyeler, dilediği her zaman belirtilen iletişim
+                        kanallarından Şirket’e yapacağı sözlü veya yazılı bildirim ile, hiçbir gerekçe göstermeksizin ve
+                        ceza ödemeksizin üyeliğini sona erdirebilir; aynı şekilde Şirket de çeşitli nedenler ile
+                        üyelikleri sona erdirebilir/askıya alabilir.</p>
+
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;9. Yetkili Mahkeme ve Uygulanacak
+                            Hukuk</strong>
+
+                    </p>
+                    <p>İşbu Şart ve Koşullar, Türkiye Cumhuriyeti kanunlarına tabidir. Taraflar işbu sözleşmesel
+                        ilişkiden veya bu ilişkinin yorumlanmasından doğacak her türlü uyuşmazlığın çözümü için İstanbul
+                        Çağlayan (Merkez) Mahkemeleri’nin ve İcra Daireleri’nin yetkili olduğunu kabul ederler.</p>
+
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;10. Şart ve Koşullar’ın Süresi ve
+                            Feshi </strong>
+
+                    </p>
+                    <p>İşbu Şart ve Koşullar, Kullanıcı’nın üyelik oluştururken onayladığı tarihte yürürlüğe girecek ve
+                        Üye’nin hesabı aktif olduğu sürece yürürlükte kalacaktır. Üyeliğin sona ermesi ile veya sona
+                        erme hallerinden herhangi birinin gerçekleşmesi ile hiçbir uyarıya gerek kalmadan işbu Şart ve
+                        Koşullar da kendiliğinden hükümsüz olacaktır. Üyeler, dilediği her zaman belirtilen iletişim
+                        kanallarından Şirket’e yapacağı sözlü veya yazılı bildirim ile, hiçbir gerekçe göstermeksizin ve
+                        ceza ödemeksizin üyeliğini sona erdirebilir; aynı şekilde Şirket de çeşitli nedenler ile
+                        üyelikleri sona erdirebilir/askıya alabilir.</p>
+
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;11. Değişiklikler</strong>
+
+                    </p>
+                    <p>Yürürlükte olan mevzuatlar veya hizmetlerimiz zaman içerisinde değişiklik gösterebilir. Sağlam
+                        Kredi işbu Şart ve Koşullar’da tek taraflı değişiklikler yapabilir. İşbu Şart ve Koşullar’da
+                        herhangi bir değişiklik yapılırsa Kullanıcılar’ın üyelik aşamasında belirttikleri e-posta
+                        adresleri vasıtasıyla <b>Üyeler’e 30 (otuz) gün önceden ilgili değişikliğe yönelik
+                            bilgilendirilecek</b> olup Şart ve Koşullar’ın güncel hali İnternet Sitesi ve Mobil
+                        Uygulamalar
+                        üzerinden de görüntülenebilecektir. Şart ve Koşullar’da yapılan değişiklikten sonra Üye’nin
+                        hizmetlerimizden yararlanmaya devam etmesi bahsi geçen değişikliklere onay verildiği anlamına
+                        gelecektir.</p>
+
+                    <p><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;12. Tebligat</strong>
+
+                    </p>
+                    <p>Üye’nin Şirket’e üyelik oluştururken bildirdiği veya bildireceği en güncel e-posta adresi, işbu
+                        Şart ve Koşullar ile ilgili olacak her türlü bildirim için yasal tebligat adresi olarak kabul
+                        edilir. Taraflar, mevcut e-posta adreslerindeki değişiklikleri 3 (üç) gün içerisinde diğer
+                        Taraf’a bildirmedikleri takdirde, eski e-posta adreslerine yapılacak bildirimlerin geçerli
+                        olacağını ve kendilerine yapılmış sayılacağını kabul ederler. Üye’nin kayıtlı e-posta adresi
+                        kullanılarak yapılan her türlü bildirimin, e-postanın Şirket tarafından yollanmasından 1 (bir)
+                        gün sonra Üye’ye ulaştığı kabul edilir.</p>
+
+
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- 4. Kısım -->
+
+
+    <div class="container-fluid bgr">
+        <div class="container">
+            <div class="bot-text">
+               
+                <p>
+                    Sağlam Bilişim Finansal Danışmanlık A.Ş., kiranızın düzenli ödeneceği hususunda %100 garanti vermez,
+                    <br> potansiyel kiracınızın geçmiş dönem ödeme performansını görerek gelecekteki ödemelerinde fikir
+                    sahibi olmanızı sağlar.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+
+
+    <footer>
+        <div class="container-fluid">
+
+            <div class="footer-bottom row">
+
+
+                <div class="col-lg-4 col-6">
+                    <div class="footer-first-title mb-3">
+                        SAYFALAR
+                    </div>
+                    <div class="footer-text">
+                        <a href="index.html">Anasayfa</a>
+                    </div>
+                    <div class="footer-text">
+                        <a href="about.html">Hakkımızda</a>
+                    </div>
+                    <div class="footer-text">
+                        <a href="contact.html">İletişim</a>
+                    </div>
+
+                    <div class="dsp">
+                        <div class="footer-first-title mt-2 mb-3">
+                            YASAL
+                        </div>
+                        <div class="footer-text">
+                            <a href="kvkk.html">KVKK Aydınlatma
+                                Metni</a>
+                        </div>
+                        <div class="footer-text">
+                            <a href="#agreement">Kullanıcı Sözleşmesi</a>
+                        </div>
+
+                        <div class="footer-text">
+                            <a href="privacy.html">Gizlilik Politikası</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-6 dsp2" style="display: none;">
+
+
+
+                    <div class="footer-first-title mb-3">
+                        YASAL
+                    </div>
+                    <div class="footer-text">
+                        <a href="kvkk.html">KVKK Aydınlatma
+                            Metni</a>
+                    </div>
+                    <div class="footer-text">
+                        <a href="#agreement">Kullanıcı Sözleşmesi</a>
+                    </div>
+
+                    <div class="footer-text">
+                        <a href="privacy.html">Gizlilik Politikası</a>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-lg-4 col-6">
+                    <div class="footer-first-title  mb-3">
+                        KURUM BİLGİLERİ
+                    </div>
+                    <div class="footer-text">
+                        <h5>Firma Adı:</h5>
+                        <h6>Sağlam Bilişim Finansal Danışmanlık Hizmetleri Anonim Şirketi</h6>
+                    </div>
+                    <div class="footer-text mt-4">
+                        <h5>Mersis No:</h5>
+                        <h6>0738-1222-2730-0001</h6>
+                    </div>
+                    <div class="footer-text mt-4">
+                        <h5>Ticaret Sicil No:</h5>
+                        <h6>İstanbul Ticaret Odası / 421032-5</h6>
+                    </div>
+                    <div class="footer-text mt-4">
+                        <h5>Genel Müdürlük:</h5>
+                        <h6>Nisbetiye mah. Gazi Güçnar sk. Uygur İş Merkezi No: 4 İç Kapı No:2 Beşiktaş/İstanbul</h6>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 col-6">
+                    <div class="footer-first-title  mb-3">
+                        İLETİŞİM BİLGİLERİ
+                    </div>
+
+
+                    <div class="footer-text">
+                        <div class="iconGroup1 phone">
+                            <div class="icon">
+                                <i class="fa-solid fa-square-phone"></i>
+                            </div>
+                            <div class="details">
+                                <span>Müşteri Hizmetleri</span>
+                                <span>0212 923 25 27</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="footer-text">
+                        <div class="iconGroup1 whatsapp">
+                            <div class="icon">
+                                <i class="fa-brands fa-square-whatsapp"></i>
+                            </div>
+                            <div class="details">
+                                <span>WhatsApp Destek</span>
+                                <a href="https://wa.me/902129232527">
+                                    <span class="smallfont">Hemen bilgi al</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="footer-text">
+                        <div class="iconGroup1 mail">
+                            <div class="icon emailicon .mail-ml">
+                                <i class="fa-solid fa-square-envelope"></i>
+                            </div>
+                            <div class="details emailspace">
+                                <span>E-Posta</span>
+                                <span>rapor@saglambilisim.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="copyright-text col-12">
+                    2016 ©️ <b>Sağlam Bilişim Finansal Danışmanlık A.Ş.</b> <br>Tüm hakları saklıdır.
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/js/mdb.min.js"
+        integrity="sha512-XFd1m0eHgU1F05yOmuzEklFHtiacLVbtdBufAyZwFR0zfcq7vc6iJuxerGPyVFOXlPGgM8Uhem9gwzMI8SJ5uw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>

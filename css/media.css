@@ -1,0 +1,1008 @@
+@media (max-width: 1420.98px) {
+
+  /* İLETİŞİM SAYFASI */
+
+  .contain .body-contain .head-body {
+    padding: 5.75rem 3rem;
+  }
+
+  .contain .body-contain .head-body .head-left {
+    max-width: 450px;
+  }
+
+  .contain .body-contain .head-body .head-left .body-p {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .contain .body-contain .head-body .head-left .body-p .p-bg .background {
+    height: 60px;
+  }
+
+  .contain .body-contain .head-body .head-left .body-alt-p {
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 400px;
+  }
+
+  .contain .body-contain .head-body .head-right img {
+    width: 100%;
+  }
+
+  .contain .main-white {
+    padding-bottom: 3rem;
+    padding-top: 0;
+  }
+
+  .contain .main-title {
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 0;
+    padding-top: 3rem;
+  }
+
+
+}
+
+
+
+@media (max-width: 1330px) {
+  .anasayfaMenu .menuContainer {
+    padding: 0 1rem;
+  }
+
+  .anasayfaMenu2 .menuContainer2 {
+    padding: 0 1rem;
+  }
+
+  .anasayfaMenu1 .menuContainer {
+    padding: 0 1rem;
+  }
+
+  .infoParagraph {
+    padding: 0 1rem;
+  }
+}
+
+
+@media (max-width: 1270px) {
+
+  /* İLETİŞİM SAYFASI */
+  .container-limit {
+    max-width: 800px !important;
+    margin: auto;
+  }
+
+  .boyut{
+    max-width: 350px !important;
+  }
+
+
+}
+
+
+@media (max-width: 1199.98px) {
+  .status-card-group {
+
+    padding-bottom: 1.8rem;
+
+
+  }
+
+  .imgdisplay {
+    padding-top: 30px !important;
+  }
+
+}
+
+
+@media(max-width: 1100px) {
+
+  /* İLETİŞİM SAYFASI */
+  .messageForm .halfWidth {
+    flex-basis: 100%;
+  }
+}
+
+
+
+@media (max-width: 991.98px) {
+
+  /* ANASAYFA */
+
+
+
+  .offcanvas-header {
+    height: 100px !important;
+  }
+
+  .display7,
+  .display9 {
+    display: block !important;
+  }
+
+  .displayBar{
+    display: block !important;
+    
+  }
+
+  .displayBar .bars{
+    font-size: x-large;
+  }
+
+  .menu-item-group{
+    display: none !important;
+  }
+  .offcanvas-header .btn-close {
+    font-size: x-large;
+  }
+
+  .pl {
+    padding-left: 10px;
+  }
+
+  .default-btn {
+    font-size: 16px;
+    padding: 0.6rem 2rem;
+  }
+
+  .title-group {
+    max-width: 498px;
+    margin: auto;
+  }
+
+  .title-group .title {
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 35px;
+  }
+
+  .title-group .title-info {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+
+
+  .firstAreaImg {
+
+    margin-top: 36px;
+
+  }
+
+  .default-btn.secondArea {
+    height: 70px;
+    max-width: 328px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+
+  .status-card-group .status-card .status-card-title {
+    margin: 0 2rem;
+    margin-top: 30px;
+  }
+
+  .status-card-group .status-card .status-card-info {
+    max-width: 100px;
+  }
+
+  .offer-list {
+    max-width: 498px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+
+  .offer-radius-card {
+    margin-top: 50px;
+  }
+
+
+
+  .comment-group {
+    flex-direction: column;
+    padding: 0;
+    max-width: auto;
+  }
+
+  .owl-stage-outer {
+    width: 100%;
+    padding-right: 0.1rem;
+  }
+
+  .comment-group .owl-stage {
+    padding: 1rem 0;
+  }
+
+  .comment-group .comment-box {
+    padding: 1rem;
+    margin: auto;
+    min-height: unset;
+  }
+
+
+  .margintop {
+
+    margin-top: 25px;
+  }
+
+  footer .footer-center i {
+
+    font-size: x-large;
+  }
+
+  
+
+  /* İLETİŞİM SAYFASI */
+
+  .contain .body-contain .head-body {
+    padding: 5.75rem 3rem;
+  }
+
+
+  .contain .body-contain .head-body .head-left .body-p {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .contain .body-contain .head-body .head-left .body-p .p-bg .background {
+    height: 45px;
+    width: 109%;
+  }
+
+  .contain .body-contain .head-body .head-left .body-alt-p {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 400px;
+  }
+
+  .contain .body-contain .head-body .head-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .contain .body-contain .head-body .head-right img {
+    width: 90%;
+  }
+
+  .contain .main-white {
+    padding: 3rem 0;
+  }
+
+  .contain .main-white .main-title {
+    line-height: 30px;
+  }
+
+
+  .contain .adress-detail .adress-right {
+
+    max-width: 100%;
+  }
+
+  .contain .adress-detail .adress-right .paragraph-contain .adress-right-title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+
+  .contain .adress-detail .adress-right .paragraph-contain .adress-right-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  /* HAKKIMIZDA SAYFASI */
+
+
+
+  .head-row .imgdisplay {
+    display: none;
+  }
+
+
+  .head-row h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 36px;
+  }
+
+  .advice-row h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 36px;
+  }
+
+  .head-row p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .advice-row p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 8px;
+    text-align: center;
+  }
+
+
+  .head-row .zayif {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+
+
+  .advice-row .img-container {
+    justify-content: center;
+  }
+
+
+
+  .head-row h1 {
+    text-align: center;
+  }
+
+  .advice-row h1 {
+    text-align: center;
+  }
+
+
+  .head-row .img-container .imgClass {
+    margin-top: 36px;
+    /* margin-left: 290px; */
+    width: 238.748px;
+    height: 200.841px;
+  }
+
+  .advice-row .img-container .imgClass2 {
+    margin-top: 36px;
+    /* margin-left: 290px; */
+    width: 300px;
+    height: 300px;
+  }
+
+
+  .order1 {
+
+    order: 1;
+  }
+
+  .order2 {
+
+    order: 2;
+  }
+
+
+  .advice-row .resim3 img {
+    margin-top: 36px;
+    /* margin-left: 290px; */
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .default-btn {
+    font-size: 16px;
+    padding: 0.6rem 2rem;
+  }
+
+  footer .footer-bottom .footer-first-title {
+
+    margin-top: 20px;
+  }
+
+  .dsp {
+    display: none;
+  }
+
+  .dsp2 {
+    display: block !important;
+  }
+
+
+}
+
+
+@media(max-width: 900px) {
+
+  /* İLETİŞİM SAYFASI */
+
+  .ikincibolum section.left {
+    flex-basis: 100%;
+    margin: 0px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .anasayfaMenu .menuContainer{
+    height: 50px !important;
+  }
+  .basvurbtn {
+  
+    border-radius: 3px;
+    border: 1px solid #0E75BE;
+    background: #0E75BE;
+    font-size: 12px;
+    font-weight: 400;
+    width: fit-content;
+    margin: auto;
+    padding: 0.4rem 1rem;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .basvurbtn:hover{
+    background: #044b7d;
+    color: #fff;
+    transition: .6s ease;
+    text-decoration: none !important;
+  }
+
+  .offcanvas-header {
+    height: 50px !important;
+  }
+
+
+ 
+  .display7,
+  .display9 {
+    display: none !important;
+  }
+
+  .display6,
+  .display8 {
+    display: block !important;
+  }
+
+  .offcanvas-header .btn-close {
+    font-size: medium;
+  }
+
+  .displayBar .bars {
+
+    font-size: medium;
+
+  }
+
+
+
+  .anasayfaMenu .menuContainer .logo img{
+    width: 140px !important;
+    height: 120px !important;
+   
+  }
+
+  .kaptext {
+    padding: 44px 0;
+  }
+
+  .kaptext p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .kaptext p .vurgu {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+
+  .yellow-renk .card_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 36px;
+    padding: 40px 0;
+  }
+
+  .yellow-renk .card_container .card {
+    width: 290px;
+    height: 230px;
+    border-radius: 5px;
+    border: 0.5px solid #000;
+    background: #fff;
+    box-shadow: 2px 2px 4px 0 #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .yellow-renk .card_container .card>.cardTitle {
+    color: #000;
+    text-align: center;
+    font-family: Dosis;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: .6px;
+  }
+
+  .yellow-renk .card_container .card .cardText {
+    color: #000;
+    text-align: center;
+    font-family: Dosis;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: .36px;
+  }
+
+  .yellow-renk .card_container .default-btn {
+    padding: 15px;
+    width: 128.429px;
+    height: 24.857px;
+    text-align: center;
+    font-family: Dosis;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* Application Page */
+
+  .pd {
+
+    padding-top: 14%;
+  }
+
+}
+
+
+@media (max-width: 767.98px) {
+
+
+
+  .bg-default {
+    padding: 36px 0;
+    height: auto;
+  }
+
+  .bg-yellow.first {
+    padding: 36px 0;
+  }
+
+  .bg-yellow {
+    padding: 36px 0;
+    height: auto;
+  }
+
+  .main-motto-title-container .main-motto {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+
+
+  .motto-info {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 36px;
+  }
+
+
+  .main-motto-title-container .main-motto-with-bg {
+    padding-right: 2rem;
+    line-height: unset;
+    font-size: 32px;
+  }
+
+  .input-group {
+    margin-top: 36px;
+  }
+
+
+  .open-btn {
+    margin: 0 auto;
+    top: 0;
+    transform: none;
+  }
+
+  .title-group .title-info {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+
+  .title-group .title {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 20px;
+  }
+
+  .secondAreaImage {
+    margin-top: 36px;
+
+  }
+
+  .default-btn.secondArea {
+    font-size: 14px;
+    padding: 0;
+    height: 28px;
+    max-width: 120px;
+  }
+
+
+  .product-card-group {
+    margin-top: 36px;
+  }
+
+  .product-card-group .product-info-card {
+    margin-bottom: 50px;
+  }
+
+
+  .custom-defualt-padding {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .offer-radius-card {
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .offer-radius-card .top .top-left .bank-image img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .offer-radius-card .top .top-right .kredi-bilgi {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  .offer-radius-card .top .top-right .kredi-bilgi span {
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+  }
+
+  .offer-radius-card .bottom-left {
+    max-width: 158px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .offer-radius-card .bottom-left .accent {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .offer-radius-card .border-btn .border-in-btn {
+    font-size: 12px;
+    padding: 0.6rem 0.8rem;
+    margin: 6px 0 0 6px;
+  }
+
+
+
+  .customer-report-info {
+    color: #000;
+    text-align: center;
+    font-family: Dosis;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  footer .footer-bottom .footer-first-title {
+    font-size: 12px;
+  }
+
+  footer .footer-bottom .footer-text {
+    font-size: 12px;
+  }
+
+  footer .footer-bottom .footer-text h5 {
+    font-size: 13px;
+  }
+
+  footer .footer-bottom .footer-text h6 {
+    font-size: 12px;
+  }
+
+  footer .footer-bottom .footer-text .details span {
+    font-size: 12px;
+  }
+
+
+  footer .footer-center i {
+
+    font-size: large;
+  }
+
+  footer .footer-bottom .footer-text .iconGroup .icon i {
+    font-size: 20px;
+
+  }
+
+
+
+  footer .footer-bottom .footer-text .iconGroup .emailicon {
+
+    margin-right: 35px;
+
+  }
+
+
+  footer .footer-bottom .footer-text .iconGroup .icon {
+
+    margin-right: 35px;
+
+  }
+
+
+
+  footer .copyright-text {
+    font-size: 14px;
+  }
+
+  .iconGroup .dp i {
+    font-size: 25px !important;
+  }
+
+
+  .phone .icon i {
+    font-size: 23px;
+  }
+
+  .whatsapp .icon i {
+    font-size: 23px;
+  }
+
+
+  .mail .icon i {
+    font-size: 23px;
+  }
+
+
+  .phone .icon1 i {
+    font-size: 23px;
+  }
+
+  .whatsapp .icon1 i {
+    font-size: 23px;
+  }
+
+
+
+
+  /* İLETİŞİM SAYFASI */
+
+  .contain .body-contain {
+    padding: 0;
+    margin: 0;
+  }
+
+  .contain .body-contain .head-body {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 1rem;
+    /* flex-direction: column; */
+  }
+
+  .contain .body-contain .head-body .head-left {
+    width: 100%;
+    max-width: 450px;
+    margin: 0;
+  }
+
+  .contain .body-contain .head-body .head-left .body-p {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .contain .body-contain .head-body .head-left .body-p .p-bg {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .contain .body-contain .head-body .head-left .body-p .p-bg .background {
+    height: 50px;
+    width: 110%;
+  }
+
+  .contain .body-contain .head-body .head-left .body-alt-p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+
+  .contain .body-contain .head-body .head-right {
+    padding: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+  }
+
+  .contain .body-contain .head-body .head-right img {
+    width: 100%;
+  }
+
+  .contain .main-white {
+    padding: 3rem 1rem;
+  }
+
+  .contain .main-white .main-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: .5rem;
+  }
+
+  .contain .adress-detail {
+    margin-bottom: 0 !important;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+
+
+  .contain .adress-detail .adress-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+  .contain .adress-detail .adress-right .paragraph-contain .adress-right-title {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .contain .adress-detail .adress-right .paragraph-contain .adress-right-text {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+
+
+  .contain .company-info {
+    margin: 1rem !important;
+  }
+
+  .contain .company-info .company-contain {
+    padding: 1rem;
+  }
+
+  .contain .company-info .company-info-title {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .contain .company-info .company-info-text {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+}
+
+
+@media (max-width: 722px) {
+
+
+
+
+  .iconGroup .details span {
+    display: block;
+    color: #f5f3ee;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 28px;
+
+
+  }
+
+
+
+}
+
+@media (max-width: 569px) {
+  .iconGroup {
+    display: block;
+
+  }
+
+  .iconGroup .dp i {
+    font-size: 23px !important;
+  }
+}
+
+
+
+
+@media (max-width: 460px) {
+
+
+  .back-btn span {
+    display: none;
+  }
+
+ 
+}
+
+@media (max-width: 440px) {
+
+  .info-icon-group {
+    display: block !important;
+  }
+
+  .boyut{
+    max-width: 300px !important;
+  }
+
+  header .advisor-img {
+    bottom: -20px;
+  }
+}
+
+@media (max-width: 410px) {
+
+ .emailspace span{
+  word-wrap:break-word;
+ }
+
+ .mail .details{
+  width:75px !important;
+ 
+ }
+
+   .emailspace span{
+  padding-right: 5px !important;
+  } 
+
+
+}
+
+
+
+@media (max-width: 345px) {
+
+  .genislik{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin: auto;
+  }
+
+  .emailspace span{
+    padding-right: 10px !important;
+    } 
+
+    .iconGroup1 .mail-ml{
+      margin-right: 30px !important;
+    }
+  
+
+
+ }
+
+ 
+
+ 
+
+
+ 
+

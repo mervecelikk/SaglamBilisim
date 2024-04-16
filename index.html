@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SYFhG5N6fNSeKAXJBrJSZO5QpY/kH5bsynQXW0" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Ana Sayfa</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="anasayfaMenu">
+        <div class="menuContainer">
+
+            <!-- BARS -->
+            <div class="displayBar" style="display: none;">
+                <a class="bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop">
+                    <i class="fa-solid fa-bars fa-xl" style="color: #0E75BE;"></i>
+                </a>
+            </div>
+
+            <!-- MENÜ -->
+            <div class="w-100 d-flex align-items-center justify-content-between">
+
+                <div class="logo pl">
+                    <a href="index.html"><img src="./img/saglambilisim.png"></a>
+                </div>
+
+                <div class="menu-item-group">
+                    <div class="menu-item is-active"><a href="/">Anasayfa</a></div>
+                    <div class="menu-item"><a href="about.html">Hakkımızda</a></div>
+
+
+                    <div class="menu-item"><a href="contact.html">İletişim</a></div>
+                </div>
+
+
+                <div class="pr">
+                    <a href="application.html" class="basvurbtn" tabindex="-1" role="button" aria-disabled="true">Hemen
+                        Başvur</a>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- NAVBAR OFFCANVAS -->
+
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+            <div class="w-100 d-flex align-items-center justify-content-between">
+
+                <a class="brand display6" style="display: none;" href="index.html">
+                    <img style="height: 35px; width:130px;" src="./img/saglambilisimmini.png">
+                </a>
+
+                <a class="brand display7" style="display: none;" href="index.html">
+                    <img style="height: 70px; width:250px;" src="./img/saglambilisimmini.png">
+                </a>
+
+
+
+                <a class="pr display8" style="display: none;" href="application.html">
+                    <div class="basvurbtn ">
+                        Hemen Başvur
+                    </div>
+                </a>
+
+
+                <a class="pr display9" style="display: none;" href="application.html">
+                    <div class="basvurbtn">
+                        Hemen Başvur
+                    </div>
+                </a>
+
+
+            </div>
+
+
+
+        </div>
+        <div class="offcanvas-body">
+
+            <ul>
+                <a href="index.html">
+                    <li>Anasayfa</li>
+                </a>
+                <hr class="mobil-hr">
+
+                <a href="about.html">
+                    <li>Hakkımızda</li>
+                </a>
+                <hr class="mobil-hr">
+
+                <a href="contact.html">
+                    <li>İletişim</li>
+                </a>
+            </ul>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- 1. KISIM -->
+
+
+    <section class="first-area bg-yellow mt-0 first">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="main-motto-title-container">
+                        <div class="main-motto">Kişiye Özel Kredi Raporu!</div>
+
+                        <p class="motto-info">
+                            <b>Evini/Arabanı kiraya mı vereceksin?</b> <br>
+                            Potansiyel kiracının geçmiş dönemde kredi/kredi kartı ödeme performansı, gelecekteki kira
+                            ödeme düzeni hakkında size en iyi bilgiyi verir.
+                        </p>
+                        <ul>
+                            <li class="d-flex">
+                                <p class="relex-p">Ev Kiralama Risk Raporu</p>
+                            </li>
+                            <li class="d-flex">
+                                <p class="relex-p">Araç Kiralama Risk Raporu</p>
+                            </li>
+                            <li class="d-flex">
+                                <p class="relex-p">Kişiye Özel Kredibilite/Risk Raporu</p>
+                            </li>
+                            <li class="d-flex">
+                                <p class="relex-p">Şirketlere/Kobilere Özel Kredibilite/Risk Raporu</p>
+                            </li>
+
+
+                        </ul>
+                        <div class="input-group">
+                            <a href="application.html"> <button class="apply-other default-btn open-btn">Başvuru
+                                    Yap</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12 p-0">
+                    <img class="img-fluid firstAreaImg" src="./img/kredi-skoru-header1.webp">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Kısım -->
+
+
+    <section class="second-area bg-default">
+        <div class="container">
+            <div class="title-group">
+                <div class="title">Türkiye'nin en detaylı kredi raporu</div>
+                <div class="title-info">
+                    Potansiyel kiracının, bankaların gözünde nasıl göründüğüne bak, mülkünü gönül rahatlığıyla kirala!
+                </div>
+            </div>
+            <img class="secondAreaImage img-fluid" src="./img/financial-score.webp">
+
+            <a href="https://www.paytr.com/link/gc4BYYW"> <button class="apply-btn default-btn secondArea mx-auto">Satın
+                    Al</button></a>
+        </div>
+    </section>
+
+
+    <!-- 3. Kısım -->
+
+
+    <section class="fourth-area bg-yellow">
+        <div class="container  genislik">
+            <div class="title-group">
+                <div class="title">Senin <span class="accent">kredi profilin</span> hangisi?</div>
+                <div class="title-info">
+                    Potansiyel kiracının, bankaların gözünde nasıl göründüğüne bak, mülkünü gönül rahatlığıyla kirala!
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row status-card-group">
+
+
+                    <div class="col-lg-2 col-md-4 col-6 mb-2">
+                        <div class="status-card zayif">
+
+                            <div class="status-rating-img">
+                                <img loading="lazy" src="./img/zayif.png">
+                            </div>
+                            <div class="status-card-title">
+                                Zayıf
+                            </div>
+                            <div class="status-card-info">
+                                Kötü
+                            </div>
+                            <div class="status-card-icon">
+                                <i class="fa-solid fa-circle-xmark fa-xl" style="color: #F28A73"></i>
+                            </div>
+                            <div class="golge"></div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-lg-2 col-md-4 col-6 mb-2">
+                        <div class="status-card kritik">
+
+                            <div class="status-rating-img">
+                                <img loading="lazy" src="./img/kritik.png">
+                            </div>
+                            <div class="status-card-title">
+                                Kritik
+                            </div>
+                            <div class="status-card-info">
+                                Kurtarılabilir
+                            </div>
+                            <div class="status-card-icon">
+                                <i class="fa-solid fa-circle-exclamation fa-xl" style="color: #FBA491"></i>
+                            </div>
+                            <div class="golge"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-4 col-6 mb-2">
+                        <div class="status-card riskli">
+
+                            <div class="status-rating-img">
+                                <img loading="lazy" src="./img/riskli.png">
+                            </div>
+                            <div class="status-card-title">
+                                Riskli
+                            </div>
+                            <div class="status-card-info">
+                                Uyarılar başladı
+                            </div>
+                            <div class="status-card-icon">
+                                <i class="fa-solid fa-bell fa-xl" style="color: #FAC39E;"></i>
+                            </div>
+                            <div class="golge"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-4 col-6 mb-2">
+                        <div class="status-card hassas">
+
+                            <div class="status-rating-img">
+                                <img loading="lazy" src="./img/hassas.png">
+                            </div>
+                            <div class="status-card-title">
+                                Hassas
+                            </div>
+                            <div class="status-card-info">
+                                Harekete geçebiliriz
+                            </div>
+                            <div class="status-card-icon">
+                                <i class="fa-solid fa-percent fa-xl" style="color: #ffea94;"></i>
+                            </div>
+                            <div class="golge"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-4 col-6 mb-2">
+                        <div class="status-card guvenli">
+
+                            <div class="status-rating-img">
+                                <img loading="lazy" src="./img/guvenli.png">
+                            </div>
+                            <div class="status-card-title">
+                                Güvenli
+                            </div>
+                            <div class="status-card-info">
+                                Güvenli profil
+                            </div>
+                            <div class="status-card-icon">
+                                <i class="fa-solid fa-circle-check fa-xl" style="color: #AFE72A;"></i>
+                            </div>
+                            <div class="golge"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-4 col-6 mb-2">
+                        <div class="status-card mukemmel" loading="lazy">
+                            <div class="status-rating-img">
+                                <img loading="lazy" src="./img/mukemmel.png">
+                            </div>
+                            <div class="status-card-title">
+                                Mükemmel
+                            </div>
+                            <div class="status-card-info">
+                                Harika gidiyorsun
+                            </div>
+                            <div class="status-card-icon">
+                                <i class="fa-solid fa-medal fa-xl" style="color: #F8DC55;"></i>
+                            </div>
+                            <div class="golge"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- 4. Kısım -->
+
+
+    <section class="tenth-area bg-default" id="customer">
+        <div class="container">
+            <div class="title-group">
+                <div class="title"><span class="accent">Müşteri Yorumları</span></div>
+                <div class="title-info">
+                    Sağlam Bilişim Finansal Danışmanlık ayrıcalıklarından faydalanarak kolay ve hızlı krediye ulaşan
+                    müşteriler
+                </div>
+            </div>
+            <div class="comment-group">
+                <div class="comment owl-carousel owl-theme owl-loaded owl-drag">
+
+
+
+
+
+
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                            style="transform: translate3d(-1160px, 0px, 0px); transition: all 0s ease 0s; width: 3867px;">
+
+
+
+
+                            <div class="owl-item active" style="width: 376.667px; padding-right:0.1%;">
+                                <div class="item">
+                                    <div class="comment-box">
+                                        <div class="comment-stars-group">
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <div class="comment-title">
+                                                Mert S****<br>
+                                                (35-Mağaza Müdürü)
+                                            </div>
+                                        </div>
+                                        <div class="comment-paragraph">
+
+                                            Desteklerinden dolayı Sağlam Bilişim Finansal Danışmanlık ekibine teşekkür
+                                            ederim. Evimi güvenle kiraya vermemde yardımcı oldular.
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="owl-item active" style="width: 376.667px; padding-right:0.1%;">
+                                <div class="item">
+                                    <div class="comment-box">
+                                        <div class="comment-stars-group">
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <div class="comment-title">
+                                                Emre K******<br>
+                                                (29-Güvenlik Görevlisi)
+                                            </div>
+                                        </div>
+                                        <div class="comment-paragraph">
+
+                                            Burada paranızın karşılığını kesinlikle alırsınız. Hiç terettüd etmeyin
+                                            benim problemim çözüldü. Kesinlikle tavsiye ederim. Herkese teşekkürlerimi
+                                            sunarım.
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="owl-item active" style="width: 376.667px; padding-right:0.1%;">
+                                <div class="item">
+                                    <div class="comment-box">
+                                        <div class="comment-stars-group">
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <div class="comment-title">
+                                                Neslihan T******<br>
+                                                (37-Öğretmen)
+                                            </div>
+                                        </div>
+                                        <div class="comment-paragraph">
+
+                                            Destek ekibi son derece hızlı ve samimi çalışıyor.Başvuru sürecinde bize
+                                            rehberlik ettiler ve her adımda yanımızda oldular. Yardımcı olan herkese
+                                            teşekkür ederim.
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="owl-item active" style="width: 376.667px; padding-right:0.1%;">
+                                <div class="item">
+                                    <div class="comment-box">
+                                        <div class="comment-stars-group">
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <div class="comment-title">
+                                                Nazlı S******<br>
+                                                (32-Mimar)
+                                            </div>
+                                        </div>
+                                        <div class="comment-paragraph">
+                                            Destek veren ve yol gösteren herkese teşekkürlerimi iletiyorum. Harika bir
+                                            ekibe sahipler. Gözül rahatlığıyla tavsiye ediyorum.Çok memnun kaldım.
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="owl-item active" style="width: 376.667px; padding-right:0.1%;">
+                                <div class="item">
+                                    <div class="comment-box">
+                                        <div class="comment-stars-group">
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <i class="fa-solid fa-star fa-lg" style="color: #F7E249"></i>
+                                            <div class="comment-title">
+                                                Mustafa K******<br>
+                                                (31-Esnaf)
+                                            </div>
+                                        </div>
+                                        <div class="comment-paragraph">
+                                            Harika bir deneyimdi. Uzman ekibi, ihtiyaçlarımı anlamak için zaman
+                                            ayırdı ve kişiselleştirilmiş bir çözüm sunmak için ellerinden gelenin en
+                                            iyisini yaptılar.
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 
+    
+                <div class="owl-nav disabled">
+                    <button type="button" role="presentation" class="owl-prev">
+                        <span aria-label="Previous">‹</span></button>
+                        <button type="button" role="presentation" class="owl-next">
+                            <span aria-label="Next">›</span></button>
+                </div> 
+            
+    -->
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- 5. Kısım -->
+    <section class="twelfth bg-yellow">
+        <div class="container">
+            <div class="title-group">
+                <div class="title">Soru & Cevap</div>
+                <div class="title-info">
+                    Aklında en çok soru işareti oluşturabilecek soruları derledik ve cevapladık
+                </div>
+            </div>
+
+
+            <div class="accordion" id="accordionExample">
+
+
+
+
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            NotAssist Uzman Analiz Raporu Nedir?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+
+                            Profilinize uygun banka seçimi ve limitleriniz dahilinde olmayan kredi başvuruları
+                            yaptığınızda genelde olumsuz sonuç alırsınız ve bu olumsuz sonuçlar bundan sonraki
+                            başvurularınızı ve kredi puanınızı olumsuz etkiler. Bu nedenle ihtiyaç sahipleri kredi
+                            kullanabilir bir profile sahipken bilinçsiz ve rastgele başvurularınız sonucunda hiçbir
+                            kredi kullanamaz duruma gelmektedirler. <b>NotAssist Uzman Analiz Raporu</b> bu noktada
+                            çözüm
+                            sunmakta olup finans uzmanları ihtiyaç sahiplerinin profiline özel borç/limit oranı, geçmiş
+                            dönem ödemeleri, yasal takip/haciz/icra durumları, kişi kredibilite durumu, mevcut mali yapı
+                            gibi verileri anlaşmalı olunan 13 bankadan ve tıpkı bankalar gibi Merkez Bankası Kredi Kayıt
+                            Bürosu A.Ş(Findeks)’den alıp analiz ederek kişiye özel limit tutarını ve ılımlı banka
+                            tercihini belirleyen bir rapor sunarak size gerçeğe en yakın sonucu verir. Bu sayede hiçbir
+                            bankaya başvuru yapıp olumsuz sonuç alarak puanınızı düşürmeden olumsuz kredi başvuruları
+                            almadan istediğiniz kredinin nasıl sonuçlanacağını öğrenebilirsiniz.
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Evimi kirayalacağım, kiracıdan neden NotAssist Risk Raporu istemeliyim?
+                        </button>
+                    </h5>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Potansiyel kiracınızın geçmiş dönemde kredi/kredi kartı ödeme performansı, gelecekteki kira
+                            ödeme düzeni hakkında size en iyi bilgiyi verir.
+                            <br>
+                            <br>
+                            Bankalara borcunu ödemeyen ya da geciktiren kişiler genelde kira ödemelerine de sadık
+                            olmamaktadırlar. Bu noktada kanun da kiracıdan yana olduğundan dolayı ilerleyen süreçte ev
+                            sahipleri büyük sorunlar yaşamaktadır.
+                            <br>
+                            <br>
+                            Evinizi kiralarken kefil de alsanız, tahliye taahhütnamesi de hazırlasanız maalesef ki
+                            hukuki süreç en az 2 yıl sürmektedir. Bu nedenle kiralama öncesi kiracınız için NotAssist
+                            Risk Raporu satın almanızı şiddetle tavsiye ederiz.
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Bana neden kredi çıkmıyor ?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Bunun bir çok nedeni var maalesef ki.<br><br>
+                            <b>Bu faktörler;</b>
+                            <br>
+                            <br>
+
+                            <ul>
+                                <li>Yüksek borçlanma</li>
+                                <li>Başvuru sayısı</li>
+                                <li>Ödeme düzeni</li>
+                                <li>Yasal takip</li>
+                                <li>Daha önceden hiçbir banka ürünü kullanmamış olmak</li>
+                                <li>Kefillik</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Kredi başvurusu puan düşürür mü ?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            İhtiyaç sahibinin özellikle internetten birden fazla yaptığı başvurular ve alınan ret
+                            cevapları kredi notunu olumsuz yönde etkilemektedir. Bir çok banka sadece bu nedenden dolayı
+                            kredi vermemektedir. Çok olumsuz başvurunuz var ise mevcut dönemde yapacağınız başvurular da
+                            ret olacaktır. Tavsiyemiz hiç başvuru yapmadan en az 6 ay beklemeniz, bekleme durumunuz yok
+                            ise bize başvurmanızdır. <b>Bize yapmış olduğunuz başvurular puanınızı etkilemez.</b>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            KKB Kredi notu nedir ?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Kredi Kayıt Bürosu şu anda ve daha önceden bankalarla yapmış olduğunuz ilişkilerinizi
+                            inceler ve bu doğrultuda puanınızı belirler.Bankalar, yeni bir kredi başvurusunu
+                            değerlendirirken ya da mevcut müşterilerini yönetmek için, KRS’deki bu değerli bilgilere
+                            başvurmaktadırlar.Neye göre ve nasıl hesaplanır diye sorabilirsiniz. Aslında birçok unsur
+                            içerisinde bulundurularak hesaplandığını söyleyebiliriz. Kaç bankaya borcunuzun olduğu,
+                            borçlarınızın zamanında ödenip ödenmediği, kalan borç miktarınız, öğrenim durumunuz, gelir
+                            durumunuz, en son kredi kullandığını tarih gibi birçok unsur KKB puanında etkili olmaktadır.
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Ne kadar kredi kullanabilirim ?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Kredi limiti yıllık gelir/gider dengesine bağlı olarak belirlenmektedir. Başvurunuz
+                            sonrasında NotAssist Uzman Analiz Raporu oluşturulur ve açılabilen maksimum limit tarafınıza
+                            belirtilir.
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- 6.Kısım -->
+
+
+    <section class="thirteenth bg-default">
+        <div class="container text-center">
+            <div class="customer-report-info">
+
+                Sağlam Bilişim Finansal Danışmanlık A.Ş., kiranızın düzenli ödeneceği hususunda %100 garanti vermez,
+                <br> potansiyel kiracınızın geçmiş dönem ödeme performansını görerek gelecekteki ödemelerinde fikir
+                sahibi olmanızı sağlar.
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+
+    <footer>
+        <div class="container-fluid">
+
+            <div class="footer-bottom row">
+
+
+                <div class="col-lg-4 col-6">
+                    <div class="footer-first-title mb-3">
+                        SAYFALAR
+                    </div>
+                    <div class="footer-text">
+                        <a href="index.html">Anasayfa</a>
+                    </div>
+                    <div class="footer-text">
+                        <a href="about.html">Hakkımızda</a>
+                    </div>
+                    <div class="footer-text">
+                        <a href="contact.html">İletişim</a>
+                    </div>
+
+                    <div class="dsp">
+                        <div class="footer-first-title mt-2 mb-3 ">
+                            YASAL
+                        </div>
+                        <div class="footer-text">
+                            <a href="kvkk.html">KVKK Aydınlatma
+                                Metni</a>
+                        </div>
+                        <div class="footer-text">
+                            <a href="agreement.html">Kullanıcı Sözleşmesi</a>
+                        </div>
+                        <!-- <div class="footer-text">
+                            <a href="#customer">Müşteri Yorumları</a>
+                        </div> -->
+                        <div class="footer-text">
+                            <a href="privacy.html">Gizlilik Politikası</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="col-6 dsp2" style="display: none;">
+
+                    <div class="footer-first-title mb-3">
+                        YASAL
+                    </div>
+                    <div class="footer-text">
+                        <a href="kvkk.html">KVKK Aydınlatma
+                            Metni</a>
+                    </div>
+                    <div class="footer-text">
+                        <a href="agreement.html">Kullanıcı Sözleşmesi</a>
+                    </div>
+                    <!-- <div class="footer-text">
+                        <a href="#customer">Müşteri Yorumları</a>
+                    </div> -->
+                    <div class="footer-text">
+                        <a href="privacy.html">Gizlilik Politikası</a>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="col-lg-4 col-6">
+                    <div class="footer-first-title  mb-3">
+                        KURUM BİLGİLERİ
+                    </div>
+                    <div class="footer-text">
+                        <h5>Firma Adı:</h5>
+                        <h6>Sağlam Bilişim Finansal Danışmanlık Hizmetleri Anonim Şirketi</h6>
+                    </div>
+                    <div class="footer-text mt-4">
+                        <h5>Mersis No:</h5>
+                        <h6>0738-1222-2730-0001</h6>
+                    </div>
+                    <div class="footer-text mt-4">
+                        <h5>Ticaret Sicil No:</h5>
+                        <h6>İstanbul Ticaret Odası / 421032-5</h6>
+                    </div>
+                    <div class="footer-text mt-4">
+                        <h5>Genel Müdürlük:</h5>
+                        <h6>Nisbetiye mah. Gazi Güçnar sk. Uygur İş Merkezi No: 4 İç Kapı No:2 Beşiktaş/İstanbul</h6>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 col-6">
+                    <div class="footer-first-title  mb-3">
+                        İLETİŞİM BİLGİLERİ
+                    </div>
+
+
+                    <div class="footer-text">
+                        <div class="iconGroup1 phone">
+                            <div class="icon">
+                                <i class="fa-solid fa-square-phone"></i>
+                            </div>
+                            <div class="details">
+                                <span>Müşteri Hizmetleri</span>
+                                <span>0212 923 25 27</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="footer-text">
+                        <div class="iconGroup1 whatsapp">
+                            <div class="icon">
+                                <i class="fa-brands fa-square-whatsapp"></i>
+                            </div>
+                            <div class="details">
+                                <span>WhatsApp Destek</span>
+                                <a href="https://wa.me/902129232527">
+                                    <span class="smallfont">Hemen bilgi al</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="footer-text">
+                        <div class="iconGroup1 mail">
+                            <div class="icon emailicon mail-ml">
+                                <i class="fa-solid fa-square-envelope"></i>
+                            </div>
+                            <div class="details emailspace">
+                                <span>E-Posta</span>
+                                <span>rapor@saglambilisim.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="copyright-text col-12">
+                    2016 ©️ <b>Sağlam Bilişim Finansal Danışmanlık A.Ş.</b> <br> Tüm hakları saklıdır.
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/js/mdb.min.js"
+        integrity="sha512-XFd1m0eHgU1F05yOmuzEklFHtiacLVbtdBufAyZwFR0zfcq7vc6iJuxerGPyVFOXlPGgM8Uhem9gwzMI8SJ5uw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
