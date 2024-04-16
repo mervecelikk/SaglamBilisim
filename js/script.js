@@ -46,7 +46,7 @@ document.querySelectorAll
 // GERİ SAYIM VE SAYFAYA YÖNLENDİRME
 
 // Buraya kaç saniyelik bir geri sayım yapmak istediğinizi yazıyorsunuz //
-var zaman = 20
+var zaman = 7
 function gerisayim() {
     if (zaman != 0) {
         zaman -= 1
